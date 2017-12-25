@@ -1,0 +1,11 @@
+CHANGELOG: 1.0 TO 1.1
+=====================
+update: moved switch after load sharing circuit
+update: changed the package of all resitors
+new: added battery protected output
+new: added some notes to the schematics
+update: minor schematics tweaks, major PCB rework (thicker and shorter traces, less vias (36 vs 20) and all SMPS components are closer together)
+
+CHANGELOG: 1.0
+=====================
+INITIAL RELEASE

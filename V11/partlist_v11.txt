@@ -1,0 +1,42 @@
+Partlist
+
+Exported from lithium_battery_manager_v11.sch at 25.12.2017 17:48
+
+EAGLE Version 8.4.1 Copyright (c) 1988-2017 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value           Device               Package              Library               Sheet
+
++5V                      M01OFFSET            1X01_OFFSET          SparkFun-Connectors   1
+5V                       M02PTH3              1X02_LONGPADS        SparkFun-Connectors   1
+BATT                     M02PTH3              1X02_LONGPADS        SparkFun-Connectors   1
+BATTP                    M02PTH3              1X02_LONGPADS        SparkFun-Connectors   1
+C1       10u             C-EUC1206            C1206                resistor              1
+C2       10u             C-EUC1206            C1206                resistor              1
+C3       22u             C-EUC1206            C1206                resistor              1
+C4       22u             C-EUC1206            C1206                resistor              1
+D2       LED-CONN        LED-CONN             LED5MM               custom                1
+D4       LED-CONN        LED-CONN             LED5MM               custom                1
+D5       B340A           DIODE-SCHOTTKY-B340A SMA-DIODE            SparkFun-DiscreteSemi 1
+D6       LED-CONN        LED-CONN             LED5MM               custom                1
+D8       B340A           DIODE-SCHOTTKY-B340A SMA-DIODE            SparkFun-DiscreteSemi 1
+GND                      M01OFFSET            1X01_OFFSET          SparkFun-Connectors   1
+J1                       USB-ABCONN-11794     USB-AB-MICRO-SMD_V03 SparkFun-Connectors   1
+L1       22u             MS85                 MS85                 inductor-neosid       1
+Q1       MOSFET-PCHANNEL MOSFET-PCHANNEL      SOT23-3              SparkFun-DiscreteSemi 1
+R1       1k              R-EU_R1206           R1206                resistor              1
+R2       1k              R-EU_R1206           R1206                resistor              1
+R3       1.2k            R-EU_R1206           R1206                resistor              1
+R4       100R            R-EU_R1206           R1206                resistor              1
+R5       1k              R-EU_R1206           R1206                resistor              1
+R6       0R3             R-EU_R1206           R1206                resistor              1
+R7       1k              R-EU_R1206           R1206                resistor              1
+R8       7.5k            R-EU_R1206           R1206                resistor              1
+R9       1k              R-EU_R1206           R1206                resistor              1
+R10      10k             R-EU_R1206           R1206                resistor              1
+U$4      SK-12D07        SK-12D07             SK12SWITCH           custom                1
+U1       TP4056          TP4056               SOP8                 custom                1
+U2       8205A           8205A                TSSOP8               lipo                  1
+U3       DW01-P          DW01-P               SOT23-6L             lipo                  1
+U4       MT3608          MT3608               SOT23-6              custom                1

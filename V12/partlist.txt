@@ -1,0 +1,38 @@
+LITHIUM BATTERY MANAGER V1.2 PARTLIST
+http://embedblog.eu/?p=91
+
+Assembly variant: 
+
+Part     Value           Device               Package                 Notes              
+
++5V                      M01OFFSET            1X01_OFFSET             just a pad, not a real part    
+5V                       M02PTH3              1X02_LONGPADS           just a pad, not a real part        
+BATT                     M02PTH3              1X02_LONGPADS           just a pad, not a real part     
+BATTP                    M02PTH3              1X02_LONGPADS           just a pad, not a real part        
+C1       10u             C-EUC1206            1206                
+C2       10u             C-EUC1206            1206                
+C3       22u             C-EUC1206            1206                
+C4       22u             C-EUC1206            1206                
+D2       LED-CONN        LED-CONN             LED5MM                  custom LED footprint, fits either 1206 SMD LED, 5 mm LED or wires              
+D4       LED-CONN        LED-CONN             LED5MM                  custom LED footprint, fits either 1206 SMD LED, 5 mm LED or wires               
+D5       B340A           DIODE-SCHOTTKY-B340A SMA-DIODE            
+D6       LED-CONN        LED-CONN             LED5MM                  custom LED footprint, fits either 1206 SMD LED, 5 mm LED or wires               
+D8       B340A           DIODE-SCHOTTKY-B340A SMA-DIODE            
+GND                      M01OFFSET            1X01_OFFSET             just a pad, not a real part          
+J1                       USB-ABCONN-11794     USB-AB-MICRO-SMD_V03    microUSB connector - the kind with two plastic legs protruding down  
+L1       22u             MS85                 MS85                    22 uH inductor, rated at least 2 A                 
+Q1       MOSFET-PCHANNEL MOSFET-PCHANNEL      SOT23-3                 generic one, I used AO3419              
+R1       1k              R-EU_R1206           1206                
+R3       1.2k            R-EU_R1206           1206                
+R4       100R            R-EU_R1206           1206                
+R5       1k              R-EU_R1206           1206                
+R7       1k              R-EU_R1206           1206                
+R8       7.5k            R-EU_R1206           1206                
+R9       1k              R-EU_R1206           1206                
+R10      10k             R-EU_R1206           1206                
+U$4      SK-12D07        SK-12D07             SK12SWITCH           
+U1       TP4056          TP4056               SOP8                 
+U2       8205A           8205A                TSSOP8               
+U3       DW01-P          DW01-P               SOT23-6L             
+U4       MT3608          MT3608               SOT23-6              
+USB                      M03PTH               1X03                    just a pad, not a real part                

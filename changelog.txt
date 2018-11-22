@@ -1,3 +1,13 @@
+CHANGELOG: 1.1 TO 1.2
+=====================
+new: D+ and D- pins now wired to a 3 pin connector
+update: shield and ID pins of USB grounded
+update: TP4056 status LEDs have only 1 resistor
+update: TP4056 - removed Vcc resistor
+new: added 2,2 mm mounting holes (for M2 screws)
+update: dimensions matched to 18650 cell (18 x 60 mm - it is a little bit shorter, to allow 8 of them to be placed on a 100 x 100 PCB)
+update: thermal pad beneath the TP4056
+
 CHANGELOG: 1.0 TO 1.1
 =====================
 update: moved switch after load sharing circuit
